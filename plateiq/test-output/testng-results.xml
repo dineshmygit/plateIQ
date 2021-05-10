@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59164" started-at="2021-05-11T01:49:46 IST" finished-at="2021-05-11T01:50:46 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59164" started-at="2021-05-11T01:49:46 IST" finished-at="2021-05-11T01:50:46 IST">
+      <class name="testcases.MainClass">
+        <test-method status="PASS" signature="seFileName()[pri:0, instance:testcases.MainClass@1855c9a]" name="seFileName" is-config="true" duration-ms="22" started-at="2021-05-11T01:49:46 IST" finished-at="2021-05-11T01:49:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seFileName -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcases.MainClass@1855c9a]" name="preCondition" is-config="true" duration-ms="19283" started-at="2021-05-11T01:49:47 IST" finished-at="2021-05-11T01:50:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="callAllFunctions(java.lang.String, java.lang.String)[pri:0, instance:testcases.MainClass@1855c9a]" name="callAllFunctions" duration-ms="39073" started-at="2021-05-11T01:50:06 IST" data-provider="fetchData" finished-at="2021-05-11T01:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testplateiq@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callAllFunctions -->
+      </class> <!-- testcases.MainClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
